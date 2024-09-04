@@ -1,0 +1,7 @@
+<div  class="border-bottom">
+    <h4>Title: {{job['title']}}</h4>
+    <div> Location: {{job['location']}} </div>
+    {% if 'salary' in job %}
+        <div> Salaruy: {{job['salary']}} </div>
+    {% endif %}
+</div>
